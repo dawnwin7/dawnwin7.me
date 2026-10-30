@@ -164,6 +164,12 @@ settings:
 
 catalogs:
   default:
+    '@tailwindcss/vite':
+      specifier: ^4.3.3
+      version: 4.3.3
+    tailwindcss:
+      specifier: ^4.3.3
+      version: 4.3.3
     vite:
       specifier: npm:@voidzero-dev/vite-plus-core@1.4.0
       version: 1.4.0
@@ -188,7 +194,7 @@ importers:
         specifier: ^1.26.0
         version: 1.65.0(@types/node@26.6.5)(@voidzero-dev/vite-plus-core@1.4.0(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.1))(workerd@1.20261023.1)(wrangler@4.154.0(@types/node@26.6.5))
       '@tailwindcss/vite':
-        specifier: ^4.1.18
+        specifier: 'catalog:'
         version: 4.3.3(@voidzero-dev/vite-plus-core@1.4.0(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.1))
       '@tanstack/solid-query':
         specifier: 5.105.0
@@ -209,7 +215,7 @@ importers:
         specifier: ^1.9.12
         version: 1.9.17
       tailwindcss:
-        specifier: ^4.1.18
+        specifier: 'catalog:'
         version: 4.3.3
     devDependencies:
       '@tanstack/devtools-vite':
